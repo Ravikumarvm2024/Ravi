@@ -1,0 +1,12 @@
+int a=10;
+b=20;
+int *it,*csa
+it=&a;
+csa=&b;
+a=10;
+it=csa;
+*csa=21;
+printf ("%d %d",&a,&b);
+printf("\n%d,&a,&b");
+return o;
+}
